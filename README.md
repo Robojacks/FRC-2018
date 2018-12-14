@@ -15,7 +15,9 @@ import edu.wpi.first.wpilibj.Compressor;
 import edu.wpi.first.wpilibj.Solenoid;
 
 public class TankDrive {
+	
 	// instance variables
+	
 	XboxController xbox;
 	
 	WPI_TalonSRX RRearWheel; // Defining all eight motors
