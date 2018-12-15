@@ -9,19 +9,19 @@ Robot.java
     import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
     import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
-/**
- * The VM is configured to automatically run this class, and to call the
- * functions corresponding to each mode, as described in the IterativeRobot
- * documentation. If you change the name of this class or the package after
- * creating this project, you must also update the build.properties file in the
- * project.
- */
-public class Robot extends TimedRobot {
-	private static final String kDefaultAuto = "Default";
-	private static final String kCustomAuto = "My Auto";
-	private String m_autoSelected;
-	private SendableChooser<String> m_chooser = new SendableChooser<>();
-	private Timer AutoTimer;
+    /**
+    * The VM is configured to automatically run this class, and to call the
+    * functions corresponding to each mode, as described in the IterativeRobot
+    * documentation. If you change the name of this class or the package after
+    * creating this project, you must also update the build.properties file in the
+    * project.
+    */
+    public class Robot extends TimedRobot {
+	   private static final String kDefaultAuto = "Default";
+	   private static final String kCustomAuto = "My Auto";
+	   private String m_autoSelected;
+	   private SendableChooser<String> m_chooser = new SendableChooser<>();
+	   private Timer AutoTimer;
 
 	TankDrive chassis = new TankDrive(); // added this (1), getting an instance of the tank drive class made in the other file in this project
 
