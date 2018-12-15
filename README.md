@@ -1,20 +1,24 @@
-package org.usfirst.frc.team4674.robot;
+    package org.usfirst.frc.team4674.robot;
 
-//imports
-import edu.wpi.first.wpilibj.XboxController;
-//import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.SpeedControllerGroup;
+    //imports
+    
+    import edu.wpi.first.wpilibj.XboxController;
 
-import edu.wpi.first.wpilibj.Timer;
+    //import edu.wpi.first.wpilibj.Joystick;
+    
+    import edu.wpi.first.wpilibj.SpeedControllerGroup;
+    
+    import edu.wpi.first.wpilibj.Timer;
+    
+    import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
+    
+    import edu.wpi.first.wpilibj.drive.DifferentialDrive;
+    
+    import edu.wpi.first.wpilibj.Compressor;
 
-import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
-import edu.wpi.first.wpilibj.drive.DifferentialDrive;
+    import edu.wpi.first.wpilibj.Solenoid;
 
-import edu.wpi.first.wpilibj.Compressor;
-
-import edu.wpi.first.wpilibj.Solenoid;
-
-public class TankDrive {
+    public class TankDrive {
 	
 	// instance variables
 	
@@ -192,7 +196,6 @@ public class TankDrive {
 		
 		}
 	}
+	
+    }
 
-	
-	
-}
